@@ -1,18 +1,18 @@
 <p align="center">
 <img
-    src="https://neo-cdn.azureedge.net/images/neo_logo.svg"
+    src="https://repository-images.githubusercontent.com/204357600/6e429f00-c7a2-11e9-8761-a838f0f01e23"
     width="250px">
 </p>
 
 <p align="center">      
-  <a href="https://travis-ci.org/neo-project/neo-cli">
-    <img src="https://travis-ci.org/neo-project/neo-cli.svg?branch=master" alt="Current TravisCI build status.">
+  <a href="https://travis-ci.org/george-key/geo-node">
+    <img src="https://travis-ci.org/george-key/geo-node.svg?branch=master" alt="Current TravisCI build status.">
   </a>
-  <a href="https://github.com/neo-project/neo-cli/blob/master/LICENSE">
+  <a href="https://github.com/george-key/geo-node/blob/master/LICENSE">
     <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License">
   </a>
-  <a href="https://github.com/neo-project/neo-cli/releases">
-    <img src="https://badge.fury.io/gh/neo-project%2Fneo-cli.svg" alt="Current neo-cli version.">
+  <a href="https://github.com/george-key/geo-node/releases">
+    <img src="https://badge.fury.io/gh/george-key%2Fgeo-node.svg" alt="Current geo-node version.">
   </a>    
 </p>
 
@@ -70,7 +70,7 @@ docker build -t neo-cli .
 docker run -p 10332:10332 -p 10333:10333 --name=neo-cli-mainnet neo-cli
 ```
 
-After start the container successfully, use the following scripts to open neo-cli interactive window:
+After start the container successfully, use the following scripts to open geo-node interactive window:
 
 ```sh
 docker exec -it neo-cli-mainnet /bin/bash
@@ -79,7 +79,7 @@ screen -r node
 
 ## Logging
 
-To enable logs in neo-cli, you need to add the ApplicationLogs plugin. Please check [here](https://github.com/neo-project/neo-plugins) for more information.
+To enable logs in neo-cli, you need to add the ApplicationLogs plugin. Please check [here](https://github.com/george-key/geo-plugins) for more information.
 
 
 ## Bootstrapping the network.
